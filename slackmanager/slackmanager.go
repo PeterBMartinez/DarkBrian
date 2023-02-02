@@ -7,7 +7,6 @@ import (
   "context"
   "log"
   "os"
-  "github.com/PeterBMartinez/DarkBrian/chatgptmanager"
   "github.com/slack-go/slack"
   "github.com/slack-go/slack/slackevents"
   "github.com/slack-go/slack/socketmode"
@@ -18,9 +17,7 @@ func Start() {
   token := os.Getenv("SLACK_AUTH_TOKEN")
   appToken := os.Getenv("SLACK_APP_TOKEN")
 
-
   client := slack.New(token, slack.OptionDebug(true), slack.OptionAppLevelToken(appToken))
-
 
   socketClient := socketmode.New(
     client,
@@ -86,15 +83,11 @@ func handleAppMentionEvent(event *slackevents.AppMentionEvent, client *slack.Cli
 
 	text := strings.ToLower(event.Text)
 
-	attachment := slack.Attachment{}
-
-  attachment.Pretext = chatgptmanager.GetChatAnswer(text)
-
+	attachment := chatGPTResponseAttachment(text)
+  fmt.Println("User %s has messaged", user.Name)
 	_, _, err = client.PostMessage(event.Channel, slack.MsgOptionAttachments(attachment))
 	if err != nil {
 		return fmt.Errorf("failed to post message: %w", err)
 	}
 	return nil
 }
-
-
