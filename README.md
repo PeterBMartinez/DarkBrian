@@ -17,7 +17,7 @@ SLACK_CHANNEL_ID="{{ Channel Name }}"
 SLACK_APP_TOKEN="{{ Slack Application Token }}"
 CHAT_GPT_TOKEN="{{ ChatGPT Token }}"
 ```
-If you don't have these tokens, here are some helpful links on how to retrieve them!
+If you don't have these tokens on hand, huse the following helpful links to retrieve them!
 - Slack tokens: [api.slack.com](https://api.slack.com/tutorials/tracks/getting-a-token)
 - Slack channel Id: [socialinterns.com](https://help.socialintents.com/article/148-how-to-find-your-slack-team-id-and-slack-channel-id#:~:text=the%20Team%20ID.-,Open%20any%20web%20browser%20and%20log%20in%20to%20your%20Slack,represents%20your%20Slack%20Channel%20ID.)
 - ChatGPT token: [platform.openai.com](https://platform.openai.com/account/api-keys)
