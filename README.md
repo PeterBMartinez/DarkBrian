@@ -1,6 +1,10 @@
 # DarkBrian
 <kbd> <img width="685" style="border-radius: 0%;" alt="Screenshot 2023-01-31 at 8 34 51 PM" src="https://user-images.githubusercontent.com/42549333/216329444-b935e37d-c991-4275-9866-1f1438c16caf.png"></kbd> 
 
+## Packages Used
+- ChatGPT by [solywsh](https://github.com/solywshp)
+- Slack by [slack-go](https://github.com/slack-go)
+
 ## Local Environment Setup
 Verify if you have go lang installed on your computer by running `go version` in your terminal, you should see something along the lines of `go version go1.19.5 darwin/amd64`.
 
@@ -34,11 +38,33 @@ In the channel that you selected for your bot to run simply mention your bot and
 ### Example: 
 <kbd><img width="1261" alt="Screenshot 2023-01-31 at 8 59 37 PM" src="https://user-images.githubusercontent.com/42549333/216330200-0f4d7272-5a18-4bfa-8897-4453615d532a.png"></kdb>
 
-## Todo List:
+## Todo List
 - Direct slack messaging event catching
 - Additional integrations such as Telegram, and Discord which would be optional based on environment variables
 - Support for adding your own learning models via a json file
 
 
-### If you have requests please let me know! 
+### License! 
+```
+MIT License
 
+Copyright (c) 2023 Peter Benjamin Martinez
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
