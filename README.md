@@ -3,7 +3,9 @@
 
 ## Local Environment Setup
 Verify if you have go lang installed on your computer by running `go version` in your terminal, you should see something along the lines of `go version go1.19.5 darwin/amd64`.
+
 If not installed for MacOs you can run the following `brew install go`
+
 Once complete re run `go version` to verify
 
 Pull down the repo by using the following command `git clone git@github.com:PeterBMartinez/DarkBrian.git`
