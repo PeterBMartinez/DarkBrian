@@ -44,7 +44,7 @@ In the channel that you selected for your bot to run simply mention your bot and
 - Support for adding your own learning models via a json file
 
 
-### License! 
+### License
 ```
 MIT License
 
