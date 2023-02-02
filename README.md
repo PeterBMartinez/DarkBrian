@@ -32,3 +32,11 @@ In the channel that you selected for your bot to run simply mention your bot and
 ### Example: 
 <kbd><img width="1261" alt="Screenshot 2023-01-31 at 8 59 37 PM" src="https://user-images.githubusercontent.com/42549333/216330200-0f4d7272-5a18-4bfa-8897-4453615d532a.png"></kdb>
 
+## Todo List:
+- Direct slack messaging event catching
+- Additional integrations such as Telegram, and Discord which would be optional based on environment variables
+- Support for adding your own learning models via a json file
+
+
+### If you have requests please let me know! 
+
